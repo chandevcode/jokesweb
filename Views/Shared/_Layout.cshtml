@@ -30,6 +30,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Jokes" asp-action="ShowSearchForm">Search</a>
                         </li>
                     </ul>
+
+                    <form asp-action="ShowSearchResults" class="form-inline my-2 my-lg-0">
+
+                        <input name="SearchJoke" class="form-control mr-sm-2" placeholder="Search Jokes" />
+
+                    </form>
+
                     <partial name="_LoginPartial" />
                 </div>
             </div>
